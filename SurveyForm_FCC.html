@@ -1,0 +1,41 @@
+<h1 id = "title">Your opinion of Me: A Survey</h1>
+<form id = "survey-form"> 
+  <p id = "description">Tell me what you think of me (Sugarcoat it please)</p>
+  <label id = "name-label">Name: </label> 
+  <input id = "name" placeholder = "Enter your name" type = "text" required><br></br>
+  
+<label id = "email-label">Email: </label>
+<input id = "email" placeholder = "Enter your email" type = "email" required><br></br>
+ 
+<label id = "number-label">Age:  </label>
+<input id = "number" placeholder = "Enter your age" type = "number" min = "15" max = "200" required>
+<br>
+<p>Choose your gender:</p>
+<input type="radio" id="male" name="gender" value="male">Male<br>
+<input type="radio" id="female" name="gender" value="female">Female<br>
+<input type="radio" id="other" name="gender" value="other">Other<br></br>
+
+<label id = "opinions">Choose an opinion: </label>
+<select id="dropdown">
+  <option value="Awesome and cool">Awesome and cool</option>
+  <option value="Just awesome">Just awesome</option>
+  <option value="Just cool">Just cool</option>
+</select><br>
+
+<p>How should I react?</p>
+<input type="checkbox" id="reaction" value = "shocked">Shocked<br>
+<input type="checkbox" id="reaction" value = "surprised">Surprised<br>
+<input type="checkbox" id = "reaction" value = "astonished">Astonished<br></br>
+
+<p>Anything else you are scared to say:</p>
+<textarea placeholder = "Any other sweet advice"></textarea><br></br>
+
+<input type = "submit" id = "submit">
+</form>
+
+<style>
+body{
+  text-align: center;
+  background-color: khaki;
+}
+</style>
